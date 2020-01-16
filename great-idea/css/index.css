@@ -215,26 +215,38 @@ a:hover {
 .top {
     display: flex;
     justify-content: space-around;
+    padding: 2%;
 }
 
 .top div {
-    width: 39%;
+    width: 40%;
 }
 
 .middle-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 90%;
+    margin: auto;
 }
 
 .bottom {
-    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
     border-bottom: 1px solid black;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 90%;
 }
 
-.bottom div {
-    width: 27%;
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding-top: 3%;
 }
-
-.contact {}
 
 .contact p {
     line-height: 40px;
