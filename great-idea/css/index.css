@@ -210,7 +210,7 @@
                         .top {
                             display: flex;
                             justify-content: space-around;
-                            padding: 2%;
+                            padding: 3%;
                         }
                         
                         .top div {
@@ -233,6 +233,10 @@
                             padding-top: 3%;
                             padding-bottom: 3%;
                             width: 90%;
+                        }
+                        
+                        .bottom div {
+                            padding: 2%;
                         }
                         
                         .contact {
