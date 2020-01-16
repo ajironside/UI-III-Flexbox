@@ -173,6 +173,7 @@
                         a {
                             color: dimgray;
                             border: 5px solid darkslategrey;
+                            border-radius: 5px;
                             background-color: deepskyblue;
                             padding: 0.5%;
                         }
@@ -309,6 +310,11 @@
                             justify-content: center;
                             width: 40%;
                             padding: 2%;
+                        }
+                        
+                        .learn-more:hover {
+                            border: 5px solid darkslategrey;
+                            background-color: deepskyblue;
                         }
                         
                         .three {
